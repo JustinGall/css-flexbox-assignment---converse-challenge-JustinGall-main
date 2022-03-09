@@ -1,0 +1,69 @@
+TEXT FORMATTING
+FONT SIZE
+font-size: 22px;
+font-size: 20px;
+font-size: 14px;
+font-size: 16px;
+
+OTHER TEXT FORMAT
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+list-style: square;
+line-height: 1.5;
+letter-spacing: 2px;
+
+COLORS
+background-color: #dddddd; /*grey*/
+color: #1d1d1d; /*black*/
+color: #969696; /*light grey*/
+color: black;
+background-color: #000; /*black*/
+color: #fff; /*white*/
+background-color: #000; /*black*/
+background-color: #ec2f2f; /*red*/
+background-color: #2224b2; /*blue*/
+background-color: #f0bf1e; /*yellow*/
+background-color: #0bff02; /*green*/
+background-color: #8a4c06; /*brown*/
+background-color: #ff2600; /*red*/
+color: white;
+
+OTHER
+cursor: pointer;
+
+LAYOUT FORMATTING
+
+BORDERS
+border: 4px solid black;
+
+MARGIN
+margin: 30px auto;
+margin-bottom: 30px;
+margin-top: 15px;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-bottom: 15px;
+margin-bottom: 8px;
+
+PADDING
+padding: 4px 0;
+padding: 7px 15px;
+
+POSITION
+position: relative; /* required for other elements to use absolute */
+position: absolute; /*must also set parent container to relative */
+top: -20px;
+left: -35px;
+
+FLEXBOX
+display: flex;
+gap: 30px;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 10px;
+gap: 12px;
+flex: 1; /* determines the grow/shrink amounts compared to other flex items*/
